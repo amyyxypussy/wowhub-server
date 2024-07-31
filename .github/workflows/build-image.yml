@@ -40,5 +40,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/wowhub-server:${{ steps.vars.outputs.tag }} ${{ secrets.DOCKER_USERNAME }}/wowhub-server:latest
+        tags: amyyxypussy/wowhub-server:latest
       
